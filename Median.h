@@ -1,3 +1,8 @@
+/*
+  Median.h - Library for implementing a median filter.
+  Created by Finn Hafting, July 6, 2021.
+*/
+
 #ifndef Median_h
 #define Median_h
 
