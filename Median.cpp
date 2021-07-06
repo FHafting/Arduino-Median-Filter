@@ -1,3 +1,8 @@
+/*
+  Median.cpp - Library for implementing a median filter.
+  Created by Finn Hafting, July 6, 2021.
+*/
+
 #include "Arduino.h"
 #include "Median.h"
 
