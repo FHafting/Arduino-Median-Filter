@@ -22,5 +22,6 @@ float medianVal = myMedian.getMedian();
 ### Freeing the buffer
 It is good practice to free the buffer before uploading new code. This could be done after a certain number of samples are taken or certain amount of time has passed. Alternatively, disconnecting power to the arduino also frees the buffer. 
 ```
+//free dynamic memory
 myMedian.freeMemory();
 ```
