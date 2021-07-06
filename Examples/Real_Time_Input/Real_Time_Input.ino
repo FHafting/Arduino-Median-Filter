@@ -1,3 +1,8 @@
+/*
+  Real_Time_Input.ino - Library for implementing a median filter.
+  Created by Finn Hafting, July 6, 2021.
+*/
+
 #include <Median.h>
 
 float medianVal;
