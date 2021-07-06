@@ -1,3 +1,8 @@
+/*
+  Static_Sample_Number.ino - Library for implementing a median filter.
+  Created by Finn Hafting, July 6, 2021.
+*/
+
 #include <Median.h>
 
 float values[] = {33.2, 44.1, 23.2, 11, 13, 12.3, 12.5, 67.2, 45.2, 78.7, 67.5, 12.3, 14.5, 89.6, 90.3, 24.4, 27.5};
