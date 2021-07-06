@@ -6,6 +6,8 @@
 #include <Median.h>
 
 float medianVal;
+
+//variables for capturing user input
 float incomingVal;
 String incomingString;
 
@@ -26,7 +28,7 @@ void loop(){
     incomingVal = incomingString.toFloat();
     myMedian.addValue(incomingVal);
 
-    if(++pointNum >= windowSize){
+    if(++pointNum >= windowSize){   //wait until first 5 values are in buffer before calculating median
       medianVal = myMedian.getMedian();
       Serial.print("Added value: ");
       Serial.print(incomingVal);
