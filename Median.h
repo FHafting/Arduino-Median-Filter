@@ -8,18 +8,20 @@
 
 #include "Arduino.h"
 
+#define MAXWINDOWSIZE 15
+
 class Median
 {
   public:
     Median(int size);
     void addValue(float value);
     float getMedian();
-    void freeMemory();
   private:
-    int window_size;
+    int _size;
     float median_value;
-    float *unsorted;
-    float *sorted;
+    float unsorted[MAXWINDOWSIZE];
+    float sorted[MAXWINDOWSIZE];
+    void swapValues(float *leftVal, float *rightVal);
 };
 
 #endif
