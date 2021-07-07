@@ -3,7 +3,7 @@
 ## Usage Instructions
 The example code provides some ways on how to use the provided functions. 
 ### Declaring filter object
-Window size must be an odd value. For best results, choose a window size between 5 - 11. 
+Window size must be an odd value **under 15**. For best results, choose a window size between 5 - 11. 
 ```
 //declare filter object as myMedian with a window size of 5 
 Median myMedian(5);
@@ -18,10 +18,4 @@ myMedian.addValue(23.5);
 ```
 //assign median value to variable medianVal
 float medianVal = myMedian.getMedian();
-```
-### Freeing the buffer
-It is good practice to free the buffer before uploading new code. This could be done after a certain number of samples are taken or certain amount of time has passed. Alternatively, disconnecting power to the arduino also frees the buffer. 
-```
-//free dynamic memory
-myMedian.freeMemory();
 ```
