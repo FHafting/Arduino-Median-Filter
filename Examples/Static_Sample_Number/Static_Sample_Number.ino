@@ -30,10 +30,6 @@ void setup() {
       delay(100);
     }
   }
-  
-  //free dynamic memory
-  myMedian.freeMemory();
-
 }
 
 void loop(){
