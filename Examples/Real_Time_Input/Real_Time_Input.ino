@@ -13,7 +13,7 @@ String incomingString;
 
 int pointNum = 0;
 
-int windowSize = 5;
+int windowSize = 5;   //window size MUST be LESS than 15
 
 //declare filter object as myMedian with a window size of 5 
 Median myMedian(windowSize);
