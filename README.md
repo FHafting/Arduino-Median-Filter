@@ -1,4 +1,4 @@
-# Median Filter
+# Arduino Median Filter
  Arduino library for implementing a median filter. A median filter works by taking the median of a set number of values (window size). This is great for smoothing data and ignoring outliers. 
  
  This library allows you to call multiple filter objects and set the window size of your data.
