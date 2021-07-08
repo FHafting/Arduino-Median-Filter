@@ -8,7 +8,7 @@
 float values[] = {33.2, 44.1, 23.2, 11, 13, 12.3, 12.5, 67.2, 45.2, 78.7, 67.5, 12.3, 14.5, 89.6, 90.3, 24.4, 27.5};
 float medianVal;
 
-int windowSize = 5;
+int windowSize = 5;   //window size MUST be LESS than 15
 
 //declare filter object as myMedian with a window size of 5 
 Median myMedian(windowSize);
